@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-iosrtc/-/cordova-plugin-iosrtc-4.0.2.tgz",
   "_shasum": "152d90f5c78ebc9f8d55fc4b46da5c153fa3414d",
   "_spec": "cordova-plugin-iosrtc",
-  "_where": "/Users/rolfbehrens/workspace/spielwiese/ios-resolutionTest",
+  "_where": "~/workspace/spielwiese/ios-resolutionTest",
   "author": {
     "name": "Iñaki Baz Castillo",
     "url": "https://inakibaz.me"
@@ -31,12 +31,10 @@
     "url": "https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc/issues"
   },
   "bundleDependencies": false,
-  "contributors": [
-    {
-      "name": "Saúl Ibarra Corretgé",
-      "url": "http://bettercallsaghul.com"
-    }
-  ],
+  "contributors": [{
+    "name": "Saúl Ibarra Corretgé",
+    "url": "http://bettercallsaghul.com"
+  }],
   "cordova": {
     "id": "cordova-plugin-iosrtc",
     "platforms": [
@@ -64,12 +62,10 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
-  "engines": [
-    {
-      "name": "cordova-ios",
-      "version": ">=3.8.0"
-    }
-  ],
+  "engines": [{
+    "name": "cordova-ios",
+    "version": ">=3.8.0"
+  }],
   "homepage": "https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc",
   "keywords": [
     "ecosystem:cordova",
