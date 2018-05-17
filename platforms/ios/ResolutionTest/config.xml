@@ -25,7 +25,7 @@
     </feature>
     <name>ResolutionTest</name>
     <description>
-        A simple WebRTC Resolution test app
+        A simple iosRTC Resolution test app
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
     </author>
@@ -48,7 +48,7 @@
     </config-file>
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
     <preference name="EnableViewportScale" value="false" />
@@ -61,4 +61,5 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="Orientation" value="default" />
 </widget>

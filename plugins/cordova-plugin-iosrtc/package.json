@@ -1,19 +1,41 @@
 {
-  "_from": "cordova-plugin-iosrtc",
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-iosrtc",
+        "scope": null,
+        "escapedName": "cordova-plugin-iosrtc",
+        "name": "cordova-plugin-iosrtc",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/rolfbehrens/workspace/spielwiese/cordova-ios-rtc-getUserMedia-test"
+    ]
+  ],
+  "_from": "cordova-plugin-iosrtc@latest",
   "_id": "cordova-plugin-iosrtc@4.0.2",
-  "_inBundle": false,
-  "_integrity": "sha1-FS2Q9ceOvJ+NVfxLRtpcFT+jQU0=",
+  "_inCache": true,
   "_location": "/cordova-plugin-iosrtc",
+  "_nodeVersion": "7.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-iosrtc-4.0.2.tgz_1497465302424_0.45793635956943035"
+  },
+  "_npmUser": {
+    "name": "ibc",
+    "email": "ibc@aliax.net"
+  },
+  "_npmVersion": "4.1.2",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
-    "registry": true,
     "raw": "cordova-plugin-iosrtc",
-    "name": "cordova-plugin-iosrtc",
+    "scope": null,
     "escapedName": "cordova-plugin-iosrtc",
+    "name": "cordova-plugin-iosrtc",
     "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+    "spec": "latest",
+    "type": "tag"
   },
   "_requiredBy": [
     "#USER",
@@ -21,8 +43,9 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-iosrtc/-/cordova-plugin-iosrtc-4.0.2.tgz",
   "_shasum": "152d90f5c78ebc9f8d55fc4b46da5c153fa3414d",
+  "_shrinkwrap": null,
   "_spec": "cordova-plugin-iosrtc",
-  "_where": "~/workspace/spielwiese/ios-resolutionTest",
+  "_where": "/Users/rolfbehrens/workspace/spielwiese/cordova-ios-rtc-getUserMedia-test",
   "author": {
     "name": "Iñaki Baz Castillo",
     "url": "https://inakibaz.me"
@@ -30,11 +53,12 @@
   "bugs": {
     "url": "https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc/issues"
   },
-  "bundleDependencies": false,
-  "contributors": [{
-    "name": "Saúl Ibarra Corretgé",
-    "url": "http://bettercallsaghul.com"
-  }],
+  "contributors": [
+    {
+      "name": "Saúl Ibarra Corretgé",
+      "url": "http://bettercallsaghul.com"
+    }
+  ],
   "cordova": {
     "id": "cordova-plugin-iosrtc",
     "platforms": [
@@ -47,7 +71,6 @@
     "random-number": "^0.0.7",
     "yaeti": "^0.0.6"
   },
-  "deprecated": false,
   "description": "Cordova iOS plugin exposing the full WebRTC W3C JavaScript APIs",
   "devDependencies": {
     "browserify": "^14.4.0",
@@ -62,10 +85,18 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
-  "engines": [{
-    "name": "cordova-ios",
-    "version": ">=3.8.0"
-  }],
+  "directories": {},
+  "dist": {
+    "shasum": "152d90f5c78ebc9f8d55fc4b46da5c153fa3414d",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-iosrtc/-/cordova-plugin-iosrtc-4.0.2.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.8.0"
+    }
+  ],
+  "gitHead": "d46ca8f0a792fa67e06dae0f766419ba7025086d",
   "homepage": "https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc",
   "keywords": [
     "ecosystem:cordova",
@@ -74,10 +105,23 @@
   ],
   "license": "MIT",
   "main": "js/iosrtc.js",
+  "maintainers": [
+    {
+      "name": "ibc",
+      "email": "ibc@aliax.net"
+    },
+    {
+      "name": "saghul",
+      "email": "saghul@gmail.com"
+    }
+  ],
   "name": "cordova-plugin-iosrtc",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BasqueVoIPMafia/cordova-plugin-iosrtc.git"
   },
+  "scripts": {},
   "version": "4.0.2"
 }

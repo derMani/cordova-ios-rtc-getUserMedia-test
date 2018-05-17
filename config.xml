@@ -2,10 +2,12 @@
 <widget id="net.bitnamic.iosresolution" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ResolutionTest</name>
     <description>
-        A simple WebRTC Resolution test app
+        A simple iosRTC Resolution test app
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
     </author>
+    <preference name="Orientation" value="default" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -31,6 +33,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="cordova-plugin-iosrtc" spec="~4.0.2" />
+    <plugin name="cordova-plugin-iosrtc" spec="^4.0.2" />
     <engine name="ios" spec="^4.5.4" />
 </widget>

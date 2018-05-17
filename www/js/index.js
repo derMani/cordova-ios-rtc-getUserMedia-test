@@ -29,6 +29,7 @@ function gum(width) {
       }
     };
     navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
+      localStream = stream;
       video.src = URL.createObjectURL(stream);
     }, function(err) { console.log(err) });
   }
@@ -36,19 +37,9 @@ function gum(width) {
 
 function onDeviceReady() {
   video = document.getElementById('localVideo');
+  cordova.plugins.iosrtc.observeVideo(video);
   console.log('Device Ready');
   cordova.plugins.iosrtc.registerGlobals();
-
-  var remote;
-  var local;
-
-
-
-  var gumButton352 = document.getElementById('getUserMedia352');
-  gumButton352.addEventListener("click", function() {
-    stopAllStreams();
-    gum(352);
-  });
 
   var gumButton640 = document.getElementById('getUserMedia640');
   gumButton640.addEventListener("click", function() {
